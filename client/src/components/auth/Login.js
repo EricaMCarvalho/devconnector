@@ -15,6 +15,12 @@ export const Login = () => {
   const onSubmit = async (e) => {
     e.preventDefault();
     console.log('SUCCESS');
+    setFormData({
+      name: '',
+      email: '',
+      password: '',
+      password2: '',
+    });
   };
 
   return (
